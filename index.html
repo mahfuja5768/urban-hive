@@ -3,13 +3,21 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- GOOGLE-FONTS -->
+    <!-- google-fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap"
       rel="stylesheet"
     />
+     <!-- font-awesome -->
+     <link
+     rel="stylesheet"
+     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+     integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+     crossorigin="anonymous"
+     referrerpolicy="no-referrer"
+   />
     <!-- css -->
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css/responsive.css" />
@@ -20,7 +28,7 @@
     <header>
       <div class="container">
         <nav class="flex-between">
-          <div class="logo flex-center">
+          <div class="logo flex-between">
             <img src="./resources/nav-image/urban-hive.png" alt="" />
             <h1 class="bigger-text">
               Urban<span style="color: #e893cf">Hive</span>
@@ -39,19 +47,45 @@
       <!-- banner -->
       <section>
         <div class="container">
-          <div class="banner-section">
+          <div class="banner-section flex-between">
             <div class="banner-text">
               <h1>Man Bags</h1>
-              <p>New Men's collections</p>
-              <div class="social-icons">
-                <img src="" alt="" />
+              <h1><em>New Men's collections</em></h1>
+              <div class="social-icons flex-center">
+                <i class="fa-brands fa-facebook" style="color: blue"></i>
+                <i class="fa-brands fa-twitter" style="color: rgb(4, 241, 241)"></i>
+                <i class="fa-brands fa-youtube" style="color: red"></i>
+                <i class="fa-brands fa-instagram" style="color: pink"></i>
               </div>
-              <div class="btns">
-                <button class="btn"></button>
-                <button class="btn"></button>
+              <div class="btns flex-center">
+                <button class="btn">See More</button>
+                <button class="btn">Shop Now</button>
               </div>
             </div>
-            <div class="banner-img"></div>
+            <div class="banner-img">
+                <img src="./resources/banner-image/bag-picture.jpg" alt="">
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- products -->
+      <section>
+        <div class="container">
+          <div class="products-section">
+            <h1>Products</h1>
+            <div class="products-cards">
+              <div class="products">
+                <img src="./resources/products/bag.png" alt="">
+                 <div class="heading">
+                  <h1>Product-1</h1>
+                  <div class="icons">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <i class="fa-solid fa-credit-card"></i>
+                    <i class="fa-solid fa-eye"></i>
+                  </div>
+                 </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>

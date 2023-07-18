@@ -3,19 +3,60 @@
     width: 90%;
   }
   h1 {
-    font-size: 20px;
-    padding: 20px 0;
+    margin: 0;
+    font-size: 27px;
+  }
+  p {
+    margin: 10px 0 20px;
+    font-size: 15px;
+  }
+  .btn{
+    padding: 10px 15px;
   }
   /* header */
-  nav , nav ul{
+  .bigger-text {
+    font-size: 35px;
+  }
+  nav,
+  nav ul {
     flex-direction: column;
     padding: 20px 0;
   }
-  nav ul{
+  nav ul {
     padding: 0;
   }
-  nav ul li{
+  nav ul li {
     margin-top: 20px;
+  }
+  .logo img {
+    width: 75px;
+  }
+  /* banner-section */
+  .banner-section {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  .banner-section div {
+    width: 100%;
+  }
+  .banner-text{
+    margin-top: 20px;
+  }
+  .banner-text h1 {
+    font-size: 35px;
+  }
+  .banner-text h1 em {
+    color: rgb(54, 54, 54);
+    font-size: 30px;
+  }
+
+  .social-icons {
+    margin: 20px 0;
+    font-size: 30px;
+   
+  }
+  .social-icons i {
+    margin-right: 15px;
   }
 }
 
@@ -25,11 +66,47 @@
     width: 90%;
   }
   h1 {
-    font-size: 25px;
-    padding: 20px 0;
+    margin: 0;
+    font-size: 30px;
+  }
+  p {
+    margin: 10px 0 20px;
+    font-size: 16px;
+  }
+  .btn{
+    padding: 10px 20px;
   }
   /* header */
-  .navbar .logo img {
-    width: 60%;
+  .bigger-text {
+    font-size: 45px;
+  }
+  nav{
+    flex-direction: column;
+    padding: 20px 0;
+  }
+  /* banner-section */
+  .banner-section {
+    text-align: center;
+    padding: 10px;
+  }
+  .banner-text{
+    margin-top: 20px;
+    width: 10%;
+  }
+  .banner-text h1 {
+    font-size: 30px;
+  }
+  .banner-text h1 em {
+    color: rgb(54, 54, 54);
+    font-size: 27px;
+  }
+
+  .social-icons {
+    margin: 20px 0;
+    font-size: 30px;
+   
+  }
+  .social-icons i {
+    margin-right: 15px;
   }
 }

@@ -11,7 +11,10 @@ body {
   width: 100%;
   margin: 0 auto;
 }
-
+/* common-css */
+img {
+  width: 100%;
+}
 h1 {
   margin: 0;
   font-size: 30px;
@@ -22,7 +25,9 @@ p {
 }
 ul li {
   list-style: none;
-  margin-right: 30px;
+  margin-left: 30px;
+
+  
 }
 ul li a {
   text-decoration: none;
@@ -34,11 +39,8 @@ ul li a {
 .bigger-text {
   font-size: 40px;
 }
-.section-gap {
-  margin: 30px 0 0;
-}
-section {
-  padding: 10px;
+main section {
+  margin-top: 100px;
 }
 /* flex-styles */
 .flex-center {
@@ -60,13 +62,67 @@ header {
   width: 90px;
 }
 
-.login-btn{
-        background-color: #e893cf;
-        color: black;
-        padding: 10px 20px;
-        border: none;
-        border-radius: 10px;
-        text-align: center;
-        cursor: pointer;
-      
+.login-btn {
+  background-color: #e893cf;
+  color: black;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  text-align: center;
+  cursor: pointer;
+  font-weight: 600;
+}
+.btn {
+  background-color: transparent;
+  border: 1px solid #9376e0;
+  padding: 12px 20px;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+  margin-right: 20px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+/* banner */
+.banner-section {
+  border-radius: 10px;
+  background-color: #e6e9eb;
+  padding: 10px 20px;
+}
+.banner-section div {
+  width: 50%;
+}
+
+.banner-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.banner-text h1 {
+  font-size: 40px;
+  margin: 0 0 20px;
+  background-image: linear-gradient(#9376e0, #e893cf);
+  color: transparent;
+  -webkit-background-clip: text;
+}
+.banner-text h1 em {
+  color: rgb(54, 54, 54);
+}
+
+.social-icons {
+  margin: 20px 0;
+  font-size: 40px;
+  justify-content: center;
+}
+.social-icons i {
+  margin-right: 20px;
+}
+.banner-img img {
+  border-radius: 10px;
+  width: 100%;
+}
+.btns{
+  justify-content: center;
+  margin-bottom: 20px;
 }
