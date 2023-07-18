@@ -64,6 +64,66 @@
   grid-template-columns: repeat(1, 1fr);
   gap: 20px;
 }
+
+/* discount-section */
+.discount-section {
+  background-color: #9376e0;
+  padding: 30px 10px;
+}
+.discount-content{
+  flex-direction: column;
+}
+.discount-content div {
+  width: 100%;
+}
+
+.btn-2 {
+  background-color: transparent;
+  border: 1px solid #fff;
+  padding: 12px 20px;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+  margin-right: 20px;
+  font-weight: 600;
+  margin-top: 10px;
+  color: #fff;
+}
+
+.shirt-img {
+  padding: 0 50px;
+  position: relative;
+}
+.tag {
+  position: absolute;
+  bottom: 85%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-left: -130px;
+}
+.tag h1 {
+  width: 40px;
+  height: 40px;
+  font-size: 15px;
+}
+.discount-text {
+  padding: 20px;
+  color: #fff;
+
+}
+.discount-text p {
+  margin: 20px 0;
+}
+.discount-text button {
+  margin: 0;
+}
+/* customer-card */
+.customer-cards {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 10px;
+}
 }
 
 /* tab */
@@ -120,4 +180,53 @@
   grid-template-columns: repeat(2, 1fr);
   gap: 20px;
 }
+
+/* discount-section */
+
+.btn-2 {
+  background-color: transparent;
+  border: 1px solid #fff;
+  padding: 12px 20px;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+  margin-right: 20px;
+  font-weight: 600;
+  margin-top: 10px;
+  color: #fff;
+}
+
+.shirt-img {
+  padding: 0 10px;
+}
+.tag {
+  bottom: 85%;
+  margin-left: 90px;
+}
+.tag h1 {
+  background-color: #c076aa;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  padding: 20px;
+  font-size: 17px;
+}
+.discount-text {
+  padding: 10px;
+  color: #fff;
+
+}
+.discount-text p {
+  margin: 25px 0;
+}
+.discount-text button {
+  margin: 0;
+}
+/* customer-card */
+.customer-cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
 }
